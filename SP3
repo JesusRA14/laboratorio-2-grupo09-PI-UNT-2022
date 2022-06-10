@@ -1,0 +1,18 @@
+Algoritmo Raices_ecuacion_cuadratica
+	Definir a, b, c, discriminante, raiz1, raiz2 Como Real
+	Escribir "Inserte los valores de a, b y c (ax^2+bx+c)"
+	Leer a, b, c
+	discriminante=(b^2)-4*a*c
+	Si discriminante<0 Entonces
+		Escribir "La ecuación cuadrática no presenta raíces en los números reales"
+	SiNo
+		Si discriminante=0 Entonces
+			raiz1=(-b+raiz(discriminante))/(2*a)
+			Escribir "La ecuación cuadrática presenta una sola raíz y es: ", raiz1
+		SiNo
+			raiz1=(-b+raiz(discriminante))/(2*a)
+			raiz2=(-b-raiz(discriminante))/(2*a)
+			Escribir "Las raíces de la ecuación cuadrática son: ", raiz1," y ", raiz2
+		FinSi
+	FinSi
+FinAlgoritmo
