@@ -1,5 +1,5 @@
 Proceso ley_grashof
-	Definir long1, long2, long3, long4 Como entero
+	Definir long1, long2, long3, long4 Como Real
 	
 	Escribir "Para determinar si se cumple la ley de Grashof, se necesitan las longitudes de las 4 barras de un mecanismo"
 	
@@ -118,7 +118,7 @@ Proceso ley_grashof
 	
 	Si (S+L)<=(P+Q) Entonces
 		Escribir "Si se cumple la ley de Garshof en este mecanismo."
-		Escribir "Y tiene por lo menos una articulación  de  revolución  completa."
+		Escribir "Y tiene por lo menos una articulaciÃ³n  de  revoluciÃ³n  completa."
 	SiNo
 		Escribir "No se cumple la ley de Garshof en este mecanismo"
 	FinSi
